@@ -1819,3 +1819,26 @@ footer {
         @content;
     }
 }
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.social-link {
+    color: #666666;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #212121;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .social-links {
+        justify-content: center;
+    }
+}
